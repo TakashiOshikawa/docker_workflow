@@ -45,7 +45,7 @@
 - rsyslogを使うとLogspoutを置き換えることが出来る
 - ログの保証 rsyslogには@@か@でトランスポートプロトコルを選択することが出来る TCPを使いたいなら@@, UDPを使いたいなら@を設定する TCPの方が信頼性が高い UDPは高速だがTCP程は信頼性が保証できない
 - cAdvisor GoogleのContainerAdvisorはDockerモニタリングツール
-- クラスタ用のロギングソリューションとしてPrometheusがある
+- クラスタ用のモニタリングソリューションとしてPrometheusがある
 
 
 
